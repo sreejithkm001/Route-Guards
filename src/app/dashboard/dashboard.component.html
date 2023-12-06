@@ -1,0 +1,8 @@
+<div *ngIf="isAdmin; else userDashboard">
+  <h1>Welcome Admin!</h1>
+
+</div>
+<ng-template #userDashboard>
+  <h1>Welcome User!</h1>
+</ng-template>
+<div (click)="logout()" class="btns"><a class="btn btn-success" type="button" href='login'>Logout</a></div>

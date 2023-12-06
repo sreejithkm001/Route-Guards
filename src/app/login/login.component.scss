@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+    margin-top: 100px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 45px;
+}
+form{
+    text-align: center;
+    margin-top: 80px;
+}
+label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+input{
+    width: 400px;
+    text-align: center;
+    height: 50px;
+    border: 1px solid;
+    margin-bottom: 15px;
+}
+button{
+    padding: 10px 40px 10px 40px;
+    margin-top: 15px;
+    
+}
+.containerr{
+    display: flex;
+    &_left{
+margin-left: 30%;
+    }
+    &_right{
+margin-left: 5%;
+    }
+}

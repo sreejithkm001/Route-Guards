@@ -1,0 +1,15 @@
+<form (submit)="submitForm()">
+
+  <label class="form-label" for="name">Name</label>
+    <input class="form-control" type="text" id="name" name="name" required placeholder="enter name"> <br>
+
+    <label class="form-label" for="email">Email</label>
+    <input class="form-control" type="email" id="email" name="email" required placeholder="enter E-Mail"> <br>
+
+    <label class="form-label" for="age">Age</label>
+    <input class="form-control" type="number" id="age" name="age" required placeholder="enter age"> <br>
+  
+  <button class="btn btn-success" (click)="submitForm()" type="submit">Submit</button> &nbsp;
+  <button class="btn btn-danger"(click)="canDeactivate()" >Back</button>
+
+</form>
